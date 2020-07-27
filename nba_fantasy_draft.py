@@ -362,8 +362,8 @@ class NbaFantasyDraft(object):
                     hh_match_loss += 1
 
             # Add heads up category totals
-            hh_cat_win = hh_cat_win + hh_match_win
-            hh_cat_loss = hh_cat_loss + hh_match_loss  
+            hh_cat_win = hh_cat_win + hhwins
+            hh_cat_loss = hh_cat_loss + hhlosses
 
         # when current team match over append scores
         cat_win.append(hh_cat_win)
